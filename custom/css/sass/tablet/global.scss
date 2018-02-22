@@ -1,0 +1,47 @@
+body{
+        //background-color: $bleu_pale;
+      background-color: white;
+}
+
+#accueil{
+     .background_message{
+        background-color: $back_message;
+        color: $bleu_pale;
+        font-size: 25px;
+    }
+}
+
+
+#accueil #article.back_article{
+    
+    .row{
+	display: block;
+    }
+    .taille_photo{
+        width: 35%;
+    }
+    .hidden{
+        display: block;
+    }
+    .show{
+        display:none;
+    }
+}
+
+//class lier aux fonctions afficher()/cacher()
+#nav_bar .cache{
+    display:none;
+}
+#nav_bar .visible{
+    display:block;
+}
+.numb, .email, .dateI, .age, .nom, .prenom {
+    display: block; 
+
+}
+.email, .numb{
+    word-wrap: break-word;
+}
+
+
+
